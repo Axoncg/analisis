@@ -329,6 +329,9 @@ ggaxon(p,"Statista, basado en datos de UNCTAD y Clarkson Research Services")
 
 ## Evolución del Tamaño de los Buques Portacontenedores
 
+
+Como estas
+
 (ref:Rodrigue) Generaciones de Buques y sus Dimensiones (metros) 
 
 ```{r Caracteristicas-Buques, echo=FALSE}
