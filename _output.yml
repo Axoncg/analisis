@@ -1,0 +1,19 @@
+bookdown::gitbook:
+  config:
+        toc:
+          collapse: section
+          scroll_highlight: yes
+          before: |
+            <li><a href="./">Factibilidad Financiera</a></li>
+          after:
+        toolbar:
+          position: fixed
+        edit : null
+        download: no
+        search: yes
+        fontsettings:
+          theme: white
+          family: sans
+          size: 2
+        sharing: no
+bookdown::epub_book: default

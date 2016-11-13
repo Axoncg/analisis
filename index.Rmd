@@ -1,0 +1,24 @@
+---
+title: "Factibilidad Financiera Corredor Interoceanico"
+subtitle: "Actualización"
+author: "Axon Consulting Group"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+output: bookdown::gitbook
+bibliography: [Referencias.bib]
+biblio-style: apalike
+link-citations: yes
+cover-image: "Portada.png"
+description: "Este documento analiza la demanda potencial de contenedores que podría ser cubierta por un proyecto en el Oriente guatemalteco "
+
+---
+# (PART) Estudio de Demanda {-}
+
+# Introducción {-}
+
+El objetivo de este apartado es la determinación de una demanda potencial de contenedores, particularmente del tráfico interoceánico, que podrían ser captados por el proyecto *Corredor Interoceánico de Guatemala*
+
+<!-- revisar hasta que año realizaremos las predicciones -->
+
+Las predicciones de demanda se calcularan hasta el año 2050 , el plazo aproximado para realizar la amortización de las inversiones necesarias para llevar a cabo el proyecto mencionado anteriormente.
