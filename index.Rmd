@@ -1,5 +1,5 @@
 ---
-title: "Factibilidad Financiera Corredor Interoceanico"
+title: "Corredor Interoceanico de Guatemala"
 subtitle: "Actualización"
 author: "Axon Consulting Group"
 date: "`r Sys.Date()`"
@@ -11,8 +11,12 @@ biblio-style: apalike
 link-citations: yes
 cover-image: "Portada.png"
 description: "Este documento analiza la demanda potencial de contenedores que podría ser cubierta por un proyecto en el Oriente guatemalteco "
+github-repo: "Axoncg/analisis"
 
 ---
+
+![](Portada.png)
+
 # (PART) Estudio de Demanda {-}
 
 # Introducción {-}
