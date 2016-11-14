@@ -65,7 +65,7 @@ p<-ggplot(pct.comercio.pib,aes(year,pct)) +
   scale_x_continuous(breaks=pretty_breaks(10), name="Año")+
   ggtitle("Comercio de Mercancias vs PIB Mundial",
           subtitle = subti)+
-  coord_cartesian(xlim = c(1960,2015),ylim=c(0,1))+
+  coord_cartesian(xlim = c(1960,(lubridate::year(Sys.Date())-1)),ylim=c(0,1))+
   sin.titulos.ejes+
   theme_axon()
 
@@ -92,7 +92,7 @@ m.p <- left_join(m.p,m@data) %>%
 
 }
 
-m.p <- rbind(pct.comercio(2015),pct.comercio(1960),
+m.p <- rbind(pct.comercio(lubridate::year(Sys.Date())-1),pct.comercio(1960),
              pct.comercio(1970),pct.comercio(1980), 
              pct.comercio(1990),pct.comercio(2000))
 
@@ -328,8 +328,6 @@ ggaxon(p,"Statista, basado en datos de UNCTAD y Clarkson Research Services")
 
 
 ## Evolución del Tamaño de los Buques Portacontenedores
-
-Hola
 
 (ref:Rodrigue) Generaciones de Buques y sus Dimensiones (metros) 
 
