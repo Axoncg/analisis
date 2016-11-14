@@ -4,7 +4,7 @@ bookdown::gitbook:
           collapse: section
           scroll_highlight: yes
           before: |
-            <li><a href="./">Factibilidad Financiera</a></li>
+            <li><a href="./">Estudio de Mercado</a></li>
           after:
         toolbar:
           position: fixed
