@@ -37,11 +37,11 @@ A continuación describiremos la evolución de 4 factores que nos ayudarán a en
   * Evolución del Comercio Mundial
   * Evolución del Comercio Marítimo
   * Evolución del Comercio Contenerizado
-  * Evolución del Tamaño de los Buques de Contenedores
+  * Evolución del Tamaño de los Buques de Contenedores 
 
 ## Evolución del Comercio Mundial (1960-2015)
 
-El comercio mundial ha sufrido dos etapas de "globalización"^[En el reporte "World Trade Report 2013", realizado por la World Trade Organization (WTO), se realiza una descripción detallada de estas [dos etapas de la globalización](https://www.wto.org/english/res_e/booksp_e/world_trade_report13_e.pdf) en la sección B.]. El primer periodo de globalización inicia en el siglo XIX, en este periodo se realizan grandes adelantos en tecnologías de comunicación (telégrafo) y transporte marítimo (barcos de vapor, Canal de Suez). Este periodo finaliza con la Primera Guerra Mundial, en donde ni Inglaterra ni EEUU quisieron tomar el liderazgo para la recuperación de la economía lo que culmina con la Gran Depresión en los años 30. 
+El comercio mundial ha sufrido dos etapas de "globalización"^[En el reporte "World Trade Report 2013", realizado por la World Trade Organization (WTO), se realiza una descripción detallada de estas [dos etapas de la globalización](https://www.wto.org/english/res_e/booksp_e/world_trade_report13_e.pdf) en la sección B.] [@wto]. El primer periodo de globalización inicia en el siglo XIX, en este periodo se realizan grandes adelantos en tecnologías de comunicación (telégrafo) y transporte marítimo (barcos de vapor, Canal de Suez). Este periodo finaliza con la Primera Guerra Mundial, en donde ni Inglaterra ni EEUU quisieron tomar el liderazgo para la recuperación de la economía lo que culmina con la Gran Depresión en los años 30. 
 
 La segunda etapa inicia en los años 50 y es esta etapa la que se analizará a continuación. 
 
@@ -197,7 +197,7 @@ Actualmente el costo de comunicación ha disminuido considerablemente, así como
 
 Al momento no se cuenta con datos directos para poder realizar la estimación de qué porcentaje del comercio mundial es realizado a través de la infraestructura marítima. De forma indirecta podemos estimar a través de distintas fuentes que la participación del transporte marítimo asciende al 90%. Algunas de las fuentes que declaran esto son [International Maritime Organization](http://www.imo.org/en/KnowledgeCentre/ShipsAndShippingFactsAndFigures/TheRoleandImportanceofInternationalShipping/Documents/International%20Shipping%20-%20Facts%20and%20Figures.pdf), [International Chamber of Shipping](http://www.ics-shipping.org/shipping-facts/shipping-and-world-trade), [la sección de negocios de las Naciones Unidas](https://business.un.org/en/entities/13), [La revista Smithsonian](http://www.smithsonianmag.com/innovation/how-the-shipping-industry-is-the-secret-force-driving-the-world-economy-1950979/?no-ist) sin especificar fecha. 
 
-De acuerdo al reporte [Revision del Transporte Marítimo-2015](http://unctad.org/en/pages/PublicationWebflyer.aspx?publicationid=1374) realizado por la UNCTAD^[UNCTAD: United Nations Conference on Trade and Development], el 80% del volumen de comercio mundial y el 70% del valor fue transportado por mar y manejado en puertos en todo el mundo. Estos números son un claro indicativo de que esta vía de transporte es la espina dorsal del comercio mundial.
+De acuerdo al reporte [Revision del Transporte Marítimo-2015](http://unctad.org/en/pages/PublicationWebflyer.aspx?publicationid=1374) [@reviewmt2] realizado por la UNCTAD^[UNCTAD: United Nations Conference on Trade and Development], el 80% del volumen de comercio mundial y el 70% del valor fue transportado por mar y manejado en puertos en todo el mundo. Estos números son un claro indicativo de que esta vía de transporte es la espina dorsal del comercio mundial.
 En la figura \@ref(fig:seabornetrade) al observar el comercio total realizado por esta vía observamos que ha crecido en un 400% en el periodo 1970-2015. Una clara tendencia al alza. En este caso cabe resaltar que el volumen transportado en el año 2015 no se vió afectado por la disminución del PIB mundial en ese año. Algo que se pudo haber esperado, a juzgar por la depresión que se observa en el comercio marítimo en el año 2009 y la disminución que se observa en el PIB mundial en la figura \@ref(fig:mercancias).
 
 ```{r seabornetrade,fig.cap='Evolución del comercio maritimo en el tiempo', echo=FALSE, message=FALSE, warning=FALSE}
@@ -278,7 +278,7 @@ ggaxon(p,"UNCTAD")
 
 La historia del contenedor moderno comienza en 1949, cuando el ingeniero [Keith Tantlinger](https://en.wikipedia.org/wiki/Keith_Tantlinger) contribuye en su desarrollo, manejo y equipo para transporte. Luego en 1955 [Malcom Maclean](https://en.wikipedia.org/wiki/Malcom_McLean) forma la empresa de naves de contenedores conocida como **Sea-Land**, llevándose a Tantlinger para que trabajara con él. Luego entre 1968 y 1970 se publicaron los estándares ISO por la Organización Marítima Mundial (IMO por sus siglas en ingles).
 
-El desarrollo de esta industria otorgó las siguientes ventajas^[Según publiación de [(Jean Paul Rodrigue)](https://people.hofstra.edu/geotrans/eng/ch3en/conc3en/ch3c6en.html)]:
+El desarrollo de esta industria otorgó las siguientes ventajas^[Según publiación de [(Jean Paul Rodrigue)](https://people.hofstra.edu/geotrans/eng/ch3en/conc3en/ch3c6en.html)]: 
 
   + Estandarización del transporte de productos:
   + Flexibilidad de uso
@@ -292,7 +292,6 @@ El desarrollo de esta industria otorgó las siguientes ventajas^[Según publiaci
 En 1980 el porcentaje de la carga seca transportada por contenedores era del 5%. A partir de esta fecha fue aumentando hasta llegar a un 23% en el año 2014. Este aumento de participación vino acompañado con la construcción de naves especializadas para el transporte de contenedores y la consecuente adaptación de las operaciones portuarias alrededor del mundo.
 
 Podemos inferir que aunque el porcentaje en volumen sea menor en comparación a otros tipos de carga seca, este segmento del mercado transporta un alto porcentaje del valor del comercio mundial. La mayoría de carga de valor que es transportada por contenedores son productos transformados. En ellos se transporta; ropa, computadoras, televisores, celulares, comida transformada, etc.
-
 
 ```{r seabornetrade-container, fig.cap='Porcentaje de participación del mercado de contenedores en la categoría de carga seca', echo=FALSE, message=FALSE, warning=FALSE}
 seabornetrade.container <- read_excel("Informacion de Apoyo/Datos/world-seaborne-trade---carried-by-containers-1980-2014.xlsx",
