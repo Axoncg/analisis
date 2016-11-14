@@ -6,8 +6,8 @@ date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
 output: bookdown::gitbook
-bibliography: [Referencias.bib,refsaul.bib]
-biblio-style: apalike
+bibliography: [Referencias.bib]
+biblio-style: "apalike"
 link-citations: yes
 cover-image: "Portada.png"
 description: "Este documento analiza la demanda potencial de contenedores que podría ser cubierta por un proyecto en el Oriente guatemalteco "
@@ -17,7 +17,11 @@ github-repo: "Axoncg/analisis"
 
 ![](Portada.png)
 
+
+
 # (PART) Estudio de Demanda {-}
+
+
 
 # Introducción {-}
 

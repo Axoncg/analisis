@@ -1,0 +1,13 @@
+# Estimación del mercado
+
+El análisis de la oferta del tráfico de contenedores se realizará en base a los Puentes Terrestres operativos que realizan labores similares a las que son objeto de este estudio y que por lo tanto pueden actuar como competidores del mismo. Estos son:
+
+  * Canal de Panamá
+  * Puente Ferroviario de Panamá
+  * Puente Terrestre de Estados Unidos
+  * Puente Terrestre de Estados Unidos
+
+De la misma forma se realizará un análisis adicional el cual compete a los tráficos que se realizan en la ruta Europa-Asia y que tambien podrian formar parte del mercado potencial del proyecto estudiado.
+
+
+
