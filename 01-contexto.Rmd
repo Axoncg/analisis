@@ -47,10 +47,6 @@ La segunda etapa inicia en los años 50 y es esta etapa la que se analizará a c
 
 El comercio puede ser medido directamente o indirectamente. La medición directa sería el cálculo de todas las exportaciones del mundo para cierto periodo, el problema con este enfoque es que puede existir duplicidad debido al crecimiento en complejidad de las cadenas logísticas.
 
-```{r example}
-
-```
-
 
 Hoy en día es muy común que un producto final sea manufacturado en varias etapas en distintas partes del mundo. Por ejemplo, si hiciésemos un reloj hace 50 años en China y fuese exportado a otros países por `r scales::dollar(500)` el valor total de comercio serían efectivamente esos `r scales::dollar(500)`. Con las cadenas logísticas actuales, las partes primarias se realizarían en China por un monto de `r scales::dollar(400) `, luego serían transportadas a otro lugar en el mundo donde se le daría un valor agregado de `r  scales::dollar(100)` y se exportaría a otras partes del mundo por un valor de `r scales::dollar(500)`. Si sumamos los dos valores obtenemos un total de comercio de `r  scales::dollar(900)`.
 
